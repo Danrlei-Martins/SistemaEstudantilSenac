@@ -1,0 +1,6 @@
+
+public enum StatusFuncionario {
+	
+	CONTRATADO, DEMITIDO, FERIAS, AFASTADO, EM_INVESTIGACAO
+
+}

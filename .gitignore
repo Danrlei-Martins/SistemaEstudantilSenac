@@ -1,0 +1,24 @@
+# Compilados do Java (.class)
+*.class
+
+# Pastas de saída da IDE
+bin/
+out/
+target/
+
+# Configurações do Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# Configurações do VS Code
+.vscode/
+
+# Configurações do IntelliJ
+.idea/
+*.iml
+
+# Arquivos temporários e logs
+*.log
+*.tmp
