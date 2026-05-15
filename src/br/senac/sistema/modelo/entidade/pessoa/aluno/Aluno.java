@@ -1,0 +1,35 @@
+package br.senac.sistema.modelo.entidade.pessoa.aluno;
+import CpfInvalidoException;
+import NomeInvalidoException;
+import SobrenomeInvalidoException;
+import br.senac.sistema.modelo.entidade.pessoa.Pessoa;
+
+public class Aluno extends Pessoa {
+
+	public Aluno(String nome, String sobrenome, String cpf) throws NomeInvalidoException, SobrenomeInvalidoException, CpfInvalidoException {
+		super(nome, sobrenome, cpf);
+	}
+	
+	public boolean equals(Object objeto) {
+		
+		if(objeto == null)
+			return false;
+		
+		if(this == objeto)
+			return true;
+		
+		if(this.getClass() != objeto.getClass())
+			return false;
+		
+		Aluno aluno = (Aluno)objeto;
+		
+		return this.getNome().equals(aluno.getNome()) && this.getSobrenome().equals(aluno.getSobrenome()) && this.getCpf().equals(aluno.getCpf());
+		
+		
+	}
+
+	public void responderChamada() {
+		System.out.println(getNome() + "Professor, estou aqui.");
+	}
+
+}

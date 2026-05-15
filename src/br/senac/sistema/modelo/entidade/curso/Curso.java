@@ -1,4 +1,9 @@
-import java.util.ArrayList; 
+package br.senac.sistema.modelo.entidade.curso;
+import java.util.ArrayList;
+import java.util.List;
+
+import br.senac.sistema.modelo.entidade.pessoa.aluno.Aluno;
+import br.senac.sistema.modelo.entidade.pessoa.funcionario.professor.Professor; 
 
 public class Curso {
 	private String nome;
@@ -53,7 +58,8 @@ public class Curso {
 	public void setProfessor(Professor professor) {
 		this.professor = professor;
 	}
-	public List<Aluno>getAluno(){
+	
+	public List<Aluno>getAlunos(){
 		return alunos;
 	}
 	

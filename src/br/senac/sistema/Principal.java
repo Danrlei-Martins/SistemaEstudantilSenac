@@ -1,3 +1,11 @@
+package br.senac.sistema;
+import CpfInvalidoException;
+import NomeInvalidoException;
+import SobrenomeInvalidoException;
+import br.senac.sistema.modelo.entidade.pessoa.aluno.Aluno;
+import br.senac.sistema.modelo.entidade.pessoa.funcionario.Funcionario;
+import br.senac.sistema.modelo.entidade.pessoa.funcionario.diretor.Diretor;
+import br.senac.sistema.modelo.entidade.pessoa.funcionario.professor.Professor;
 
 public class Principal {
 
@@ -24,7 +32,7 @@ public class Principal {
 			excecao.printStackTrace();
 		}
 
-		/*Professor professor01 = new Professor("Marco", "Polo", "123.456.789-00", 1000);
+		Professor professor01 = new Professor("Marco", "Polo", "123.456.789-00", 1000);
 		professor01.setNome("Marcos");
 
 		System.out.println("\n---Relatorio da turma:---\n");
@@ -33,12 +41,17 @@ public class Principal {
 
 		professor01.efetuarChamada();
 
-		Alunos aluno01 = new Alunos("Danrlei", "Martins", "123.345.678-66");
+		Aluno aluno01 = new Aluno("Danrlei", "Martins", "123.345.678-66");
 
 		System.out.println("Aluno: " + aluno01.getNome() + " " + aluno01.getSobrenome());
 
-		aluno01.responderChamada();*/
+		aluno01.responderChamada();
+		
+		/*Aluno aluno = new Aluno("a", "a", "a", 0);
+		alunos.remove(aluno);
+		System.out.println(alunos.size());*/
 
 	}
 
 }
+		
