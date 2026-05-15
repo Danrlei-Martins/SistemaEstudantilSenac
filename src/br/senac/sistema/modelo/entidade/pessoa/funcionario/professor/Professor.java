@@ -1,9 +1,9 @@
 package br.senac.sistema.modelo.entidade.pessoa.funcionario.professor;
-import CpfInvalidoException;
-import NomeInvalidoException;
-import SobrenomeInvalidoException;
 import br.senac.sistema.modelo.entidade.curso.Curso;
 import br.senac.sistema.modelo.entidade.pessoa.funcionario.Funcionario;
+import br.senac.sistema.modelo.excecao.pessoa.CpfInvalidoException;
+import br.senac.sistema.modelo.excecao.pessoa.NomeInvalidoException;
+import br.senac.sistema.modelo.excecao.pessoa.SobrenomeInvalidoException;
 
 public class Professor extends Funcionario {
 

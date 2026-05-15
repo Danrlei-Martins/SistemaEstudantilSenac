@@ -1,3 +1,4 @@
+package br.senac.sistema.modelo.enumeracao.empregado;
 
 public enum StatusFuncionario {
 	

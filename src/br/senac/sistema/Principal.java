@@ -1,11 +1,11 @@
 package br.senac.sistema;
-import CpfInvalidoException;
-import NomeInvalidoException;
-import SobrenomeInvalidoException;
 import br.senac.sistema.modelo.entidade.pessoa.aluno.Aluno;
 import br.senac.sistema.modelo.entidade.pessoa.funcionario.Funcionario;
 import br.senac.sistema.modelo.entidade.pessoa.funcionario.diretor.Diretor;
 import br.senac.sistema.modelo.entidade.pessoa.funcionario.professor.Professor;
+import br.senac.sistema.modelo.excecao.pessoa.CpfInvalidoException;
+import br.senac.sistema.modelo.excecao.pessoa.NomeInvalidoException;
+import br.senac.sistema.modelo.excecao.pessoa.SobrenomeInvalidoException;
 
 public class Principal {
 

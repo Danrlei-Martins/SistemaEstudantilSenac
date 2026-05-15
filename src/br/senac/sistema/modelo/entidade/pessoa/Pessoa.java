@@ -1,7 +1,7 @@
 package br.senac.sistema.modelo.entidade.pessoa;
-import CpfInvalidoException;
-import NomeInvalidoException;
-import SobrenomeInvalidoException;
+import br.senac.sistema.modelo.excecao.pessoa.CpfInvalidoException;
+import br.senac.sistema.modelo.excecao.pessoa.NomeInvalidoException;
+import br.senac.sistema.modelo.excecao.pessoa.SobrenomeInvalidoException;
 
 public abstract class Pessoa {
 	private String nome;

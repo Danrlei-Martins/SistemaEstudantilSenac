@@ -1,10 +1,10 @@
 package br.senac.sistema.modelo.entidade.pessoa.funcionario.diretor;
-import CpfInvalidoException;
-import NomeInvalidoException;
-import SobrenomeInvalidoException;
-import StatusFuncionario;
 import br.senac.sistema.modelo.entidade.pessoa.funcionario.Funcionario;
 import br.senac.sistema.modelo.entidade.pessoa.funcionario.gestao.RH;
+import br.senac.sistema.modelo.enumeracao.empregado.StatusFuncionario;
+import br.senac.sistema.modelo.excecao.pessoa.CpfInvalidoException;
+import br.senac.sistema.modelo.excecao.pessoa.NomeInvalidoException;
+import br.senac.sistema.modelo.excecao.pessoa.SobrenomeInvalidoException;
 
 public class Diretor extends Funcionario implements RH {
 

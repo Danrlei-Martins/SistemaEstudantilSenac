@@ -1,9 +1,9 @@
 package br.senac.sistema.modelo.entidade.pessoa.funcionario;
-import CpfInvalidoException;
-import NomeInvalidoException;
-import SobrenomeInvalidoException;
-import StatusFuncionario;
 import br.senac.sistema.modelo.entidade.pessoa.Pessoa;
+import br.senac.sistema.modelo.enumeracao.empregado.StatusFuncionario;
+import br.senac.sistema.modelo.excecao.pessoa.CpfInvalidoException;
+import br.senac.sistema.modelo.excecao.pessoa.NomeInvalidoException;
+import br.senac.sistema.modelo.excecao.pessoa.SobrenomeInvalidoException;
 
 public abstract class Funcionario extends Pessoa {
 
