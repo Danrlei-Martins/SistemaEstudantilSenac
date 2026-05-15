@@ -21,17 +21,7 @@ public class Principal {
 
 		for (Funcionario funcionario : funcionarios)
 			System.out.println(funcionario.calcularSalario());
-		}
-		catch(NomeInvalidoException excecao) {
-			System.out.println(excecao.getMessage());
-		}
-		catch(SobrenomeInvalidoException excecao) {
-			System.out.println(excecao.getMessage());
-		}
-		catch(CpfInvalidoException excecao) {
-			excecao.printStackTrace();
-		}
-
+		
 		Professor professor01 = new Professor("Marco", "Polo", "123.456.789-00", 1000);
 		professor01.setNome("Marcos");
 
@@ -46,10 +36,16 @@ public class Principal {
 		System.out.println("Aluno: " + aluno01.getNome() + " " + aluno01.getSobrenome());
 
 		aluno01.responderChamada();
-		
-		/*Aluno aluno = new Aluno("a", "a", "a", 0);
-		alunos.remove(aluno);
-		System.out.println(alunos.size());*/
+		}
+		catch(NomeInvalidoException excecao) {
+			System.out.println(excecao.getMessage());
+		}
+		catch(SobrenomeInvalidoException excecao) {
+			System.out.println(excecao.getMessage());
+		}
+		catch(CpfInvalidoException excecao) {
+			excecao.printStackTrace();
+		}
 
 	}
 
